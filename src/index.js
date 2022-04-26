@@ -10,7 +10,7 @@ import Movies from "./components/movies/movies";
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename="/test/">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/movies" element={<Movies />}>
