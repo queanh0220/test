@@ -9,9 +9,6 @@ export class App extends React.Component {
     const { children } = this.props;
     return (
       <div className="app">
-        <Link to="/movies">
-          <button>Movies</button>
-        </Link>
         {children}
         <Outlet />
       </div>
